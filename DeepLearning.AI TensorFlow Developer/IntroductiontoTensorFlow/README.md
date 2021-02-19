@@ -55,7 +55,7 @@
             - By adding more Neurons we have to do more calculations, slowing down the process, but in this case they have a good impact -- we do get more accurate.
             - The number of neurons in the last layer should match the number of classes you are classifying for.
             -  For far more complex data (including color images to be classified as flowers that you'll see in the next lesson), extra layers are often necessary.
-            - Try 15 epochs -- you'll probably get a model with a much better loss than the one with 5 Try 30 epochs -- you might see the loss value stops decreasing, and sometimes increases => Due to overfitting.
+            - Try 15 epochs -- you'll probably get a model with a much better loss than the one with 5. Try 30 epochs -- you might see the loss value stops decreasing, and sometimes increases => Due to overfitting.
 
     - [Implementing Callbacks](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%204%20-%20Notebook.ipynb)
 - **Reference Links**
@@ -78,7 +78,7 @@
     if logs.get('accuracy') is not None and logs.get('accuracy') > 0.99:
     ```
 - **Exercises**
-    - [Exercise 12 - Handwriting recognition](Exercise2_Handwriting_Recognition_Solution.ipynb)
+    - [Exercise 2 - Handwriting recognition](Exercise2_Handwriting_Recognition_Solution.ipynb)
 ---
 
 ## Week 3 - Enhancing vision with Convolutional Neural Network
