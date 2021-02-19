@@ -24,7 +24,7 @@
     - [TensorFlow Youtube Channel](https://www.youtube.com/tensorflow)
     - [Visualize Neural Network - using Playground](http://playground.tensorflow.org/)
 - **Exercises**
-    - [Exercise 1 - House Price Prediction](Exercise_1_House_Prices_Question.ipynb)
+    - [Exercise 1 - House Price Prediction](Exercise_1_House_Prices_Solution.ipynb)
 
 ---
 
@@ -77,7 +77,8 @@
     # Python 3
     if logs.get('accuracy') is not None and logs.get('accuracy') > 0.99:
     ```
-    
+- **Exercises**
+    - [Exercise 12 - Handwriting recognition](Exercise2_Handwriting_Recognition_Solution.ipynb)
 ---
 
 ## Week 3 - Enhancing vision with Convolutional Neural Network
