@@ -102,6 +102,7 @@
 - **Implementing CNNs**
     - Along with the previously added layers, we'll include the CNN layer.
     - `input_shape=(28, 28, 1)` - The third argument denotes that we are using **single byte** for color depth (Grayscale).
+    - `filters` - Mandatory Conv2D parameter is the **numbers of filters** that convolutional layers will learn from. It is an integer value and also determines the number of output filters in the convolution.
 
 - **Implementing Max Pooling**
     - We are going to take the maximum value.
@@ -119,10 +120,17 @@
         - `model.summary()` to view the summary of your model.
     - [How convolutions work ](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%206%20-%20Lesson%203%20-%20Notebook.ipynb)
         - Don't forget to change the Runtime Type to **GPU**.
+        - Try out this filter (for edge detection):
+        ```py
+        filter = [[-1, -1, -1], [-1,  8, -1], [-1, -1, -1]]
+        ```
+- **Reference Links**
+    - [Image Filtering tutorial](https://lodev.org/cgtutor/filtering.html)
 
 - **Exercises**
     - [Improving Computer Vision Accuracy using Convolutions - Exercises](Improving_Computer_Vision_Accuracy_using_Convolutions_Exercises.ipynb)
 
+---
 ## Week 4 - Using Real World Images
 
 ---
