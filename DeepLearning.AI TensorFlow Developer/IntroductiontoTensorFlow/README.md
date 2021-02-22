@@ -44,6 +44,7 @@
     - **Softmax** takes a set of values, and effectively picks the biggest one, so, for example, if the output of the last layer looks like [0.1, 0.1, 0.05, 0.1, 9.5, 0.1, 0.05, 0.05, 0.05], it saves you from fishing through it looking for the biggest value, and turns it into [0,0,0,0,1,0,0,0,0] -- The goal is to save a lot of coding!
 - **Callbacks**
     - To stop the training after reaching a particular level of accuracy or if the error falls below a particular level.
+    - A **list of callback functions** can be applied during the training of our model.
 - **Colab**
     - [Computer Vision in TensorFlow](https://colab.sandbox.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb)
         - **Sequential**: That defines a SEQUENCE of layers in the neural network
@@ -178,6 +179,8 @@
 
 ### Colab
 - [Horses or Human classifier](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%202%20-%20Notebook.ipynb)
+    - Using the **RMSprop optimization algorithm** is preferable to **stochastic gradient descent** (SGD), because RMSprop automates learning-rate tuning for us. (Other optimizers, such as **Adam** and **Adagrad**, also automatically adapt the learning rate during training, and would work equally well here.
+    - We go from the raw pixels of the images to increasingly abstract and compact representations. The representations downstream start highlighting what the network pays attention to, and they show fewer and fewer features being **"activated"**; most are set to zero. This is called **"sparsity"**. Representation sparsity is a key feature of deep learning.
 - [Horses or Humans with Validation](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%203%20-%20Notebook.ipynb)
 - [Horses or Humans with Compacting of Images](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%204%20-%20Notebook.ipynb)
 
@@ -194,6 +197,9 @@
         - Focal Loss
 
 ### Exercises
-
+- [Exercise 4 - Happy or Sad Classifier](Exercise_4_Happy_or_Sad_Classifier_.ipynb)
+    - Remember to calculate `steps_per_epoch`.
 ---
-
+## External Links
+- [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+- [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/)
