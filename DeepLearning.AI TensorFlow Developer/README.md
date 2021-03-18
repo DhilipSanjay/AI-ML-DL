@@ -5,5 +5,5 @@ TensorFlow is one of the most in-demand and popular open-source deep learning fr
 
 - [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](IntroductiontoTensorFlow)
 - [Convolutional Neural Networks in TensorFlow]()
-- [Natural Language Processing in TensorFlow]()
+- [Natural Language Processing in TensorFlow](NLPTensorflow)
 - [Sequences, Time Series and Prediction]()
