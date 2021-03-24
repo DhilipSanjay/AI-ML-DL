@@ -15,7 +15,7 @@
     - **Softmax** takes a set of values, and effectively picks the biggest one, so, for example, if the output of the last layer looks like [0.1, 0.1, 0.05, 0.1, 9.5, 0.1, 0.05, 0.05, 0.05], it saves you from fishing through it looking for the biggest value, and turns it into [0,0,0,0,1,0,0,0,0] -- The goal is to save a lot of coding!
 
 
-### Callbacks**
+### Callbacks
 - To stop the training after reaching a particular level of accuracy or if the error falls below a particular level.
 - A **list of callback functions** can be applied during the training of our model.
 
