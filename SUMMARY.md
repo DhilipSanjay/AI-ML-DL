@@ -15,4 +15,5 @@
     - [Week 3 - Sequence models](DeepLearning.AITensorFlowDeveloper/NLPTensorflow/Week3.md)
 
 ## Numpy
-- [Introduction](README.md)
+- [Introduction](Numpy/README.md)
+- [Numpy Basics](Numpy/NumpyBasics.md)
