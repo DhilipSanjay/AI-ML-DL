@@ -36,5 +36,9 @@
 
 ### Reference Links
 - [Numpy Documentation](https://numpy.org/doc/stable/user/quickstart.html)
-
+- [Numpy Axes](https://www.sharpsightlabs.com/blog/numpy-axes-explained/)
+- [Numpy Repeat](https://www.sharpsightlabs.com/blog/numpy-repeat/)
+- [Numpy - array creation routines](https://numpy.org/doc/stable/reference/routines.array-creation.html)
+- [Numpy - Math routines](https://numpy.org/doc/stable/reference/routines.math.html)
+- [Numpy - FreeCodeCamp Youtube Video](https://www.youtube.com/watch?v=QUT1VHiLmmI)
 ---
