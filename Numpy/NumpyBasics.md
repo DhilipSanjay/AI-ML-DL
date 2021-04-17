@@ -6,3 +6,4 @@
 
 ---
 
+## [Python File - Numpy Basics](https://github.com/DhilipSanjay/AI-ML-DL/blob/main/Numpy/numpy-basics.py)
