@@ -6,3 +6,10 @@ Learning and Practicing AI, ML and DL
     - Natural Language Processing in TensorFlow
 
 - Numpy
+
+## Gitbook Link - [dhilipsanjay.gitbook.io/ai-ml-dl](https://dhilipsanjay.gitbook.io/ai-ml-dl)
+
+## Social Links
+- [Personal Website](https://dhilipsanjay.github.io/)
+- [Twitter](https://twitter.com/DhilipSanjay)
+- [Github](https://github.com/DhilipSanjay)
