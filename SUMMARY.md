@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [AI ML DL](README.md)
+- [Home](README.md)
 
 ## DeepLearning.AI TensorFlow Developer
 - [Introduction](DeepLearning.AITensorFlowDeveloper/README.md)
